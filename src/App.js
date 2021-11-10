@@ -1,11 +1,11 @@
 import React from 'react';
-import IdCard from './IdCard/IdCard';
-import Greetings from './Greetings/Greetings';
-import Random from './Random/Random';
-import BoxColor from './BoxColor/BoxColor';
-import CreditCard from './CreditCard/CreditCard';
-import Rating from './Rating/Rating';
-import DriverCard from './DriverCard/DriverCard';
+import IdCard from './componentes/IdCard/IdCard';
+import Greetings from './componentes/Greetings/Greetings';
+import Random from './componentes/Random/Random';
+import BoxColor from './componentes/BoxColor/BoxColor';
+import CreditCard from './componentes/CreditCard/CreditCard';
+import Rating from './componentes/Rating/Rating';
+import DriverCard from './componentes/DriverCard/DriverCard';
 
 function App() {
   return (

@@ -1,0 +1,36 @@
+.containerCard {
+  display: inline-flex;
+}
+.cardContainer {
+  width: 350px;
+  height: auto;
+
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.card-flag-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-flag {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  width: 50px;
+}
+
+.cardContainer header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.cardContainer h2 {
+  display: flex;
+  justify-content: right;
+}
+
+.bankName {
+  margin-left: 20px;
+}
