@@ -6,6 +6,12 @@ import BoxColor from './componentes/BoxColor/BoxColor';
 import CreditCard from './componentes/CreditCard/CreditCard';
 import Rating from './componentes/Rating/Rating';
 import DriverCard from './componentes/DriverCard/DriverCard';
+import LikeButton from './componentes/LikeButton/LikeButton';
+import ClickablePicture from './componentes/ClickablePicture/ClickablePicture';
+import Dice from './componentes/Dice/Dice';
+import Carousel from './componentes/Carousel/Carousel';
+import NumbersTable from './componentes/NumbersTable/NumbersTable';
+import FaceBook from './componentes/FaceBook/FaceBook';
 
 function App() {
   return (
@@ -117,6 +123,28 @@ function App() {
           </div>
         </div>
       </div>
+      <div>
+        <LikeButton />
+      </div>
+      <div>
+        <ClickablePicture
+          img="./img/persons/maxence.png"
+          imgClicked="./img/persons/maxence-glasses.png"
+        />
+      </div>
+      <Dice />
+      <Carousel
+        imgs={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
+      <div className="container">
+        <NumbersTable limit={12} />
+      </div>
+      <FaceBook />
     </>
   );
 }
